@@ -31,7 +31,7 @@ example: https://localhost:3000/api/hospitals/: here our query
 Param/Data Format:  https://localhost:3000/api/hospitals/?HospitalID=2
 
 
-POSTMAN COLLECTION LINK : https://api.postman.com/collections/23051312-3324666a-6c0c-434d-a42b-e30a1a6d19be?access_key=PMAT-01GME7AB0EGHHWA95C2MBG0QYT
+POSTMAN COLLECTION LINK : https://www.postman.com/gauravchahar31/workspace/my-workspace/collection/23051312-3324666a-6c0c-434d-a42b-e30a1a6d19be?action=share&creator=23051312
 
 I'll try my best to keep the server running, however is something goes wrong with the machine, i have created a html file you can directly just run the server on your pc and use the html(homepage) to fetch and save data.
 
