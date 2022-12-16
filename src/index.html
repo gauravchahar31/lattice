@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Fetch Hospital API
+    <hr>
+    <button onclick="window.location.href='/api/hospitals/?HospitalID=1'"> Appolo Hospital </button><br>
+    <button onclick="window.location.href='/api/hospitals/?HospitalID=2'"> Jawaharlal Nehru Medical College and Hospital </button><br>
+    <button onclick="window.location.href='/api/hospitals/?HospitalID=3'"> Indira Gandhi Institute of Medical Sciences (IGIMS) </button><br>
+    <button onclick="window.location.href='/api/hospitals/?HospitalID=4'"> AIIMS - All India Institute Of Medical Science </button>
+    <br><br><br>
+    Insert Patient Details
+    <hr>
+    <form action="/api/patients" method="post">
+        <label>Name : </label>
+        <input type="text" name='name' value='Gaurav' required><br>
+        <label>Address : </label>
+        <input type="text" name='address' value='some random text' required><br>
+        <label>Email : </label>
+        <input type="text" name='email' value='gauravchahar@icloud.com'required><br>
+        <label>PhoneNumber : </label>
+        <input type="text" name='phoneNo' value='+917678694128'required><br>
+        <label>Password : </label>
+        <input type="text" name='password' value='Gaurav@123'required><br>
+        <label>Photo : </label>
+        <input type="text" name='photo' value='some random text'required><br>
+        <label>PyschiatristID : </label>
+        <input type="text" name='psychiatristID' value='101'required><br>
+        <input type="submit"> 
+    </form>
+</body>
+</html>
